@@ -1,0 +1,2 @@
+# adbpyParallel
+adb multiple devices
