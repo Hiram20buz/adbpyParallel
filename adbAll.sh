@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Get a list of connected devices
+# bash a.sh shell input keyevent 24
 devices=$(adb devices | grep -v "List of devices attached" | cut -f 1)
 
 # Check if the number of arguments is correct
